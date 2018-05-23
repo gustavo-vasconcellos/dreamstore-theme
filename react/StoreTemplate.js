@@ -4,6 +4,8 @@ import { ExtensionPoint } from 'render'
 
 import Header from './components/Header'
 
+import './store.global.css'
+
 export default class StoreTemplate extends Component {
   static propTypes = {
     children: PropTypes.element,
